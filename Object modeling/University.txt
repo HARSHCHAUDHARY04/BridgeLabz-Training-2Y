@@ -1,0 +1,34 @@
+           +-------------------+
+           |    University     |
+           +-------------------+
+           | - uniName         |
+           | - departments     |
+           +-------------------+
+           | + addDepartment() |
+           | + showUniversity()|
+           +-------------------+
+                    ●
+                    |
+             Composition
+                    |
+                    v
+           +-------------------+
+           |   Department      |
+           +-------------------+
+           | - deptName        |
+           | - facultyList     |
+           +-------------------+
+           | + addFaculty()    |
+           | + showDepartment()|
+           +-------------------+
+                    ^
+                    |
+            Aggregation (Faculty can exist independently)
+                    |
+           +-------------------+
+           |      Faculty      |
+           +-------------------+
+           | - name            |
+           +-------------------+
+           | + showFaculty()   |
+           +-------------------+

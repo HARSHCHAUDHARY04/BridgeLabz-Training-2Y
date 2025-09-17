@@ -1,0 +1,33 @@
++------------------+
+|     Company      |
++------------------+
+| - companyName    |
+| - departments    |
++------------------+
+| + addDepartment()|
+| + showCompany()  |
++------------------+
+         ●
+         |
+         | Composition
+         v
++------------------+
+|   Department     |
++------------------+
+| - deptName       |
+| - employees      |
++------------------+
+| + addEmployee()  |
+| + showDept()     |
++------------------+
+         ●
+         |
+         | Composition
+         v
++------------------+
+|    Employee      |
++------------------+
+| - name           |
++------------------+
+| + showEmployee() |
++------------------+

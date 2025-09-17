@@ -1,0 +1,36 @@
+       +----------------+
+       |    Student     |
+       +----------------+
+       | - name         |
+       | - courses      |
+       +----------------+
+       | + enrollCourse()|
+       | + viewCourses() |
+       +----------------+
+              ⇔
+         Association (Many-to-Many)
+              ⇔
+       +----------------+
+       |    Course      |
+       +----------------+
+       | - courseName   |
+       | - students     |
+       | - professor    |
+       +----------------+
+       | + addStudent() |
+       | + assignProfessor()|
+       | + showCourseInfo() |
+       +----------------+
+              ^
+              |
+         Aggregation
+              |
+       +----------------+
+       |   Professor    |
+       +----------------+
+       | - name         |
+       | - courses      |
+       +----------------+
+       | + assignCourse()|
+       | + showCourses() |
+       +----------------+

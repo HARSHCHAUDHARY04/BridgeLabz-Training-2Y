@@ -1,0 +1,9 @@
++---------+        +-----------+        +-----------+
+|  Bank   |------->| Customer  |------->|  Account  |
++---------+        +-----------+        +-----------+
+| name    |        | name      |        | number    |
+|customers|        | accounts  |        | balance   |
++---------+        +-----------+        +-----------+
+| openAcc |        | viewBal() |        | deposit() |
+| showCus |        | addAcc()  |        | withdraw()|
++---------+        +-----------+        +-----------+
